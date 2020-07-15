@@ -5,7 +5,7 @@ This plugin performs two things:
 
 ## Build and run the plugin
 1. Clone this repository.
-2. On the command line, run `mvn hpi:run`. This builds the plugin.
+2. On the command line, run `mvn hpi:run`. This builds the plugin and sets up a local Jenkins instance.
 3. Wait until you see the message `INFO: Jenkins is fully up and running`.
 3. On you browser, go to `http://localhost:8080/jenkins/`.
 4. Create a new freestyle job.
